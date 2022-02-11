@@ -23,7 +23,7 @@ export default function BodmasGame() {
 
   return (
     <div className="grid-container">
-      <div className="item1">KHOJDEAL GAME PLAY</div>
+      <div className="item1">EDUWHEEL GAME PLAY</div>
       <div className="item2">
         <h3>Bodmas Game</h3>
       </div>
