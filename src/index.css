@@ -116,3 +116,34 @@ hr.dashline {
 .tac {
   text-align: center;
 }
+
+@media only screen and (max-width:900px) {}
+
+
+.blue {
+  background-color: blue;
+  min-height: 50px;
+  min-width: 50px;
+  display: grid;
+  place-items: center;
+}
+
+.red {
+  background-color: red;
+  min-height: 50px;
+  min-width: 50px;
+  display: grid;
+  place-items: center;
+}
+
+.matrix {
+  display: grid;
+  margin: 100px;
+  /* place-items: center; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+li a {
+  text-decoration: none;
+}

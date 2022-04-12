@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 export default function BodmasGame() {
@@ -35,7 +36,7 @@ export default function BodmasGame() {
         <hr />
         <div style={{ display: open ? "block" : "none" }} id="answer"></div>
       </div>
-      <div className="item5">COPYRIGHT 2021</div>
+      <div className="item5">COPYRIGHT 2021-22</div>
     </div>
   );
 }
